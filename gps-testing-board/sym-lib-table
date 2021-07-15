@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name TESEO-LIV3F)(type Legacy)(uri ${KIPRJMOD}/Symbols/TESEO-LIV3F.lib)(options "")(descr ""))
+  (lib (name M20050-1)(type Legacy)(uri ${KIPRJMOD}/Symbols/M20050-1.lib)(options "")(descr ""))
+  (lib (name U.FL-R-SMT-1_10_)(type Legacy)(uri ${KIPRJMOD}/Symbols/U.FL-R-SMT-1_10_.lib)(options "")(descr ""))
+)

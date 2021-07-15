@@ -1,0 +1,592 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L M20050-1:M20050-1 U?
+U 1 1 60F15D19
+P 5200 2350
+F 0 "U?" H 5900 2615 50  0000 C CNN
+F 1 "M20050-1" H 5900 2524 50  0000 C CNN
+F 2 "M200501" H 6450 2450 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/23/antenova_M20050-1-1279284.pdf" H 6450 2350 50  0001 L CNN
+F 4 "Antennas GPS/GNSS RADIONOVA RF Module MTK chipset" H 6450 2250 50  0001 L CNN "Description"
+F 5 "2" H 6450 2150 50  0001 L CNN "Height"
+F 6 "Antenova" H 6450 2050 50  0001 L CNN "Manufacturer_Name"
+F 7 "M20050-1" H 6450 1950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "237-M20050-1" H 6450 1850 50  0001 L CNN "Supplier Part Number 2"
+F 9 "Mouser" H 6450 1750 50  0001 L CNN "Supplier 2"
+F 10 "Digi-Key" H 6450 1650 50  0001 L CNN "Supplier 1"
+F 11 "627-1100-1-ND" H 6450 1550 50  0001 L CNN "Supplier Part Number 1"
+	1    5200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3650 5050 3650
+Wire Wire Line
+	5050 3650 5050 3750
+Wire Wire Line
+	5200 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3650
+Connection ~ 5050 3650
+Wire Wire Line
+	5200 3450 5050 3450
+Wire Wire Line
+	5050 3450 5050 3550
+Connection ~ 5050 3550
+Wire Wire Line
+	5200 3350 5050 3350
+Wire Wire Line
+	5050 3350 5050 3450
+Connection ~ 5050 3450
+Wire Wire Line
+	5200 3250 5050 3250
+Wire Wire Line
+	5050 3250 5050 3350
+Connection ~ 5050 3350
+Wire Wire Line
+	5200 3150 5050 3150
+Wire Wire Line
+	5050 3150 5050 3250
+Connection ~ 5050 3250
+Wire Wire Line
+	6800 3650 6800 3750
+Wire Wire Line
+	6600 3650 6800 3650
+Wire Wire Line
+	6600 3550 6800 3550
+Wire Wire Line
+	6800 3550 6800 3650
+Connection ~ 6800 3650
+Wire Wire Line
+	6600 3450 6800 3450
+Wire Wire Line
+	6800 3450 6800 3550
+Connection ~ 6800 3550
+Wire Wire Line
+	6600 3350 6800 3350
+Wire Wire Line
+	6800 3350 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6600 3250 6800 3250
+Wire Wire Line
+	6800 3250 6800 3350
+Connection ~ 6800 3350
+Wire Wire Line
+	6600 3150 6800 3150
+Wire Wire Line
+	6800 3150 6800 3250
+Connection ~ 6800 3250
+Wire Wire Line
+	6600 3050 6800 3050
+Wire Wire Line
+	6800 3050 6800 3150
+Connection ~ 6800 3150
+Wire Wire Line
+	6600 2950 6800 2950
+Wire Wire Line
+	6800 2950 6800 3050
+Connection ~ 6800 3050
+NoConn ~ 8800 250 
+Text Notes 3050 1750 2    50   ~ 0
+VCC
+Text Notes 3050 2500 2    50   ~ 0
+TX
+Text Notes 3050 2600 2    50   ~ 0
+RX
+Text Notes 3050 2700 2    50   ~ 0
+GND
+Wire Notes Line
+	3100 2200 3850 2200
+Wire Notes Line
+	3850 2200 3850 2800
+Wire Notes Line
+	3850 2800 3100 2800
+Wire Notes Line
+	3100 2800 3100 2200
+Text Notes 3400 2200 0    50   ~ 0
+UART
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60F3916A
+P 3350 1700
+F 0 "J?" H 3458 1881 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3458 1790 50  0000 C CNN
+F 2 "" H 3350 1700 50  0001 C CNN
+F 3 "~" H 3350 1700 50  0001 C CNN
+	1    3350 1700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3100 1950 3850 1950
+Wire Notes Line
+	3850 1950 3850 1450
+Wire Notes Line
+	3100 1450 3850 1450
+Wire Notes Line
+	3100 1950 3100 1450
+Text Notes 3050 1850 2    50   ~ 0
+GND
+Text Notes 3200 1450 0    50   ~ 0
+Power Supply
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60F8381E
+P 3350 4050
+F 0 "J?" H 3458 4231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3458 4140 50  0000 C CNN
+F 2 "" H 3350 4050 50  0001 C CNN
+F 3 "~" H 3350 4050 50  0001 C CNN
+	1    3350 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 2950
+NoConn ~ 5200 2850
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60F30455
+P 3350 2550
+F 0 "J?" H 3458 2831 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3458 2740 50  0000 C CNN
+F 2 "" H 3350 2550 50  0001 C CNN
+F 3 "~" H 3350 2550 50  0001 C CNN
+	1    3350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60F87FEB
+P 3350 3400
+F 0 "J?" H 3458 3681 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3458 3590 50  0000 C CNN
+F 2 "" H 3350 3400 50  0001 C CNN
+F 3 "~" H 3350 3400 50  0001 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3100 3000 3100 3650
+Wire Notes Line
+	3100 3650 3850 3650
+Wire Notes Line
+	3850 3650 3850 3000
+Wire Notes Line
+	3850 3000 3100 3000
+Text Notes 3350 3000 0    50   ~ 0
+Extras
+Text Notes 3050 3350 2    50   ~ 0
+RESET
+Text Notes 3050 3450 2    50   ~ 0
+STANDBY
+Text Notes 3050 3550 2    50   ~ 0
+GND
+Wire Wire Line
+	3900 2650 3900 3300
+Wire Wire Line
+	3900 3300 3550 3300
+Wire Wire Line
+	3950 2750 3950 3400
+Wire Wire Line
+	3950 3400 3550 3400
+Wire Notes Line
+	3100 4350 3850 4350
+Wire Notes Line
+	3850 4350 3850 3800
+Wire Notes Line
+	3850 3800 3100 3800
+Wire Notes Line
+	3100 3800 3100 4350
+Text Notes 3300 3800 0    50   ~ 0
+BATTERY
+Text Notes 3050 4100 2    50   ~ 0
+BAT
+Text Notes 3050 4200 2    50   ~ 0
+GND
+Wire Wire Line
+	4000 3050 4000 4050
+Wire Wire Line
+	4000 4050 3550 4050
+$Comp
+L power:GND1 #PWR?
+U 1 1 60F91E04
+P 3750 1800
+F 0 "#PWR?" H 3750 1550 50  0001 C CNN
+F 1 "GND1" H 3755 1627 50  0000 C CNN
+F 2 "" H 3750 1800 50  0001 C CNN
+F 3 "" H 3750 1800 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1800 3750 1800
+$Comp
+L power:GND1 #PWR?
+U 1 1 60F947D8
+P 3750 2650
+F 0 "#PWR?" H 3750 2400 50  0001 C CNN
+F 1 "GND1" H 3755 2477 50  0000 C CNN
+F 2 "" H 3750 2650 50  0001 C CNN
+F 3 "" H 3750 2650 50  0001 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60F94B4C
+P 3750 3500
+F 0 "#PWR?" H 3750 3250 50  0001 C CNN
+F 1 "GND1" H 3755 3327 50  0000 C CNN
+F 2 "" H 3750 3500 50  0001 C CNN
+F 3 "" H 3750 3500 50  0001 C CNN
+	1    3750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60F94F57
+P 3750 4150
+F 0 "#PWR?" H 3750 3900 50  0001 C CNN
+F 1 "GND1" H 3755 3977 50  0000 C CNN
+F 2 "" H 3750 4150 50  0001 C CNN
+F 3 "" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60F95E62
+P 6800 3750
+F 0 "#PWR?" H 6800 3500 50  0001 C CNN
+F 1 "GND1" H 6805 3577 50  0000 C CNN
+F 2 "" H 6800 3750 50  0001 C CNN
+F 3 "" H 6800 3750 50  0001 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4150 3550 4150
+Wire Wire Line
+	3750 3500 3550 3500
+Wire Wire Line
+	3550 2650 3750 2650
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 60F9CB39
+P 7650 3050
+F 0 "L?" H 7650 3265 50  0000 C CNN
+F 1 "INDUCTOR" H 7650 3174 50  0000 C CNN
+F 2 "" H 7650 3050 50  0001 C CNN
+F 3 "~" H 7650 3050 50  0001 C CNN
+	1    7650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 60F9FDB8
+P 4100 1950
+F 0 "C?" H 4278 1996 50  0000 L CNN
+F 1 "CAP" H 4278 1905 50  0000 L CNN
+F 2 "" H 4100 1950 50  0001 C CNN
+F 3 "~" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 60FAD5A6
+P 4600 1950
+F 0 "C?" H 4778 1996 50  0000 L CNN
+F 1 "CAP" H 4778 1905 50  0000 L CNN
+F 2 "" H 4600 1950 50  0001 C CNN
+F 3 "~" H 4600 1950 50  0001 C CNN
+	1    4600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FCC901
+P 4100 2200
+F 0 "#PWR?" H 4100 1950 50  0001 C CNN
+F 1 "GND1" H 4105 2027 50  0000 C CNN
+F 2 "" H 4100 2200 50  0001 C CNN
+F 3 "" H 4100 2200 50  0001 C CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FCCE3D
+P 4600 2200
+F 0 "#PWR?" H 4600 1950 50  0001 C CNN
+F 1 "GND1" H 4605 2027 50  0000 C CNN
+F 2 "" H 4600 2200 50  0001 C CNN
+F 3 "" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2350 5100 2350
+Wire Wire Line
+	5100 1700 4600 1700
+Wire Wire Line
+	4600 1700 4100 1700
+Connection ~ 4600 1700
+Wire Wire Line
+	3550 1700 4100 1700
+Connection ~ 4100 1700
+Wire Wire Line
+	3550 2450 5200 2450
+Wire Wire Line
+	3550 2550 5200 2550
+Wire Wire Line
+	3900 2650 5200 2650
+Wire Wire Line
+	3950 2750 5200 2750
+Wire Wire Line
+	4000 3050 4450 3050
+$Comp
+L pspice:CAP C?
+U 1 1 60FD84C0
+P 4450 3300
+F 0 "C?" H 4628 3346 50  0000 L CNN
+F 1 "CAP" H 4628 3255 50  0000 L CNN
+F 2 "" H 4450 3300 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3050
+Wire Wire Line
+	4450 3050 5200 3050
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FD8DA2
+P 4450 3550
+F 0 "#PWR?" H 4450 3300 50  0001 C CNN
+F 1 "GND1" H 4455 3377 50  0000 C CNN
+F 2 "" H 4450 3550 50  0001 C CNN
+F 3 "" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FD98BF
+P 5050 3750
+F 0 "#PWR?" H 5050 3500 50  0001 C CNN
+F 1 "GND1" H 5055 3577 50  0000 C CNN
+F 2 "" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FDC225
+P 7400 2200
+F 0 "#PWR?" H 7400 1950 50  0001 C CNN
+F 1 "GND1" H 7405 2027 50  0000 C CNN
+F 2 "" H 7400 2200 50  0001 C CNN
+F 3 "" H 7400 2200 50  0001 C CNN
+	1    7400 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7300 1750 7300 2400
+Wire Notes Line
+	7300 2400 8050 2400
+Wire Notes Line
+	8050 2400 8050 1750
+Wire Notes Line
+	8050 1750 7300 1750
+$Comp
+L Device:R R?
+U 1 1 60FE7E23
+P 7650 2700
+F 0 "R?" V 7443 2700 50  0000 C CNN
+F 1 "R" V 7534 2700 50  0000 C CNN
+F 2 "" V 7580 2700 50  0001 C CNN
+F 3 "~" H 7650 2700 50  0001 C CNN
+	1    7650 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60FEB7B0
+P 8000 3100
+F 0 "#PWR?" H 8000 2850 50  0001 C CNN
+F 1 "GND1" H 8005 2927 50  0000 C CNN
+F 2 "" H 8000 3100 50  0001 C CNN
+F 3 "" H 8000 3100 50  0001 C CNN
+	1    8000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3050 8000 3050
+Wire Wire Line
+	8000 3050 8000 3100
+Wire Wire Line
+	7800 2700 8000 2700
+Wire Wire Line
+	8000 2700 8000 3050
+Connection ~ 8000 3050
+Text Notes 7400 1750 0    50   ~ 0
+INDICATORS
+Wire Wire Line
+	5100 2350 5100 1700
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60FFDEAC
+P 7800 2100
+F 0 "J?" H 7908 2381 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7908 2290 50  0000 C CNN
+F 2 "" H 7800 2100 50  0001 C CNN
+F 3 "~" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2200 7600 2200
+Text Notes 8100 2050 0    50   ~ 0
+FIX
+Text Notes 8100 2150 0    50   ~ 0
+SYNC PULSE
+Text Notes 8100 2250 0    50   ~ 0
+GND
+$Comp
+L Device:LED D?
+U 1 1 61011821
+P 7600 1400
+F 0 "D?" H 7593 1145 50  0000 C CNN
+F 1 "LED" H 7593 1236 50  0000 C CNN
+F 2 "" H 7600 1400 50  0001 C CNN
+F 3 "~" H 7600 1400 50  0001 C CNN
+	1    7600 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61012D17
+P 7150 1400
+F 0 "R?" V 6943 1400 50  0000 C CNN
+F 1 "R" V 7034 1400 50  0000 C CNN
+F 2 "" V 7080 1400 50  0001 C CNN
+F 3 "~" H 7150 1400 50  0001 C CNN
+	1    7150 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6101A515
+P 7900 1400
+F 0 "#PWR?" H 7900 1150 50  0001 C CNN
+F 1 "GND1" H 7905 1227 50  0000 C CNN
+F 2 "" H 7900 1400 50  0001 C CNN
+F 3 "" H 7900 1400 50  0001 C CNN
+	1    7900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2350 6850 2000
+Wire Wire Line
+	6850 1400 7000 1400
+Wire Wire Line
+	6600 2350 6850 2350
+Wire Wire Line
+	7300 1400 7450 1400
+Wire Wire Line
+	7750 1400 7900 1400
+Wire Wire Line
+	7600 2000 6850 2000
+Connection ~ 6850 2000
+Wire Wire Line
+	6850 2000 6850 1400
+Wire Wire Line
+	7600 2100 6900 2100
+Wire Wire Line
+	6900 2100 6900 2450
+Wire Wire Line
+	6600 2450 6900 2450
+Wire Wire Line
+	6600 2550 7350 2550
+Wire Wire Line
+	7350 2550 7350 2700
+Wire Wire Line
+	7350 2700 7500 2700
+Wire Wire Line
+	6600 2650 7250 2650
+Wire Wire Line
+	7250 2650 7250 3050
+Wire Wire Line
+	7250 3050 7400 3050
+$Comp
+L U.FL-R-SMT-1_10_:U.FL-R-SMT-1_10_ J?
+U 1 1 6102A84F
+P 7450 3650
+F 0 "J?" H 7800 3900 50  0000 L CNN
+F 1 "U.FL-R-SMT-1_10_" H 7600 3800 50  0000 L CNN
+F 2 "U.FL-R-SMT-1(10)" H 8100 3750 50  0001 L CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684" H 8100 3650 50  0001 L CNN
+F 4 "UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" H 8100 3550 50  0001 L CNN "Description"
+F 5 "" H 8100 3450 50  0001 L CNN "Height"
+F 6 "Hirose" H 8100 3350 50  0001 L CNN "Manufacturer_Name"
+F 7 "U.FL-R-SMT-1(10)" H 8100 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-U.FL-R-SMT-110" H 8100 3150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" H 8100 3050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "U.FL-R-SMT-1(10)" H 8100 2950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/u.fl-r-smt-1-10/hirose-electric" H 8100 2850 50  0001 L CNN "Arrow Price/Stock"
+	1    7450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2750 7050 2750
+Wire Wire Line
+	7050 2750 7050 3750
+Wire Wire Line
+	7050 3750 7450 3750
+$Comp
+L power:GND1 #PWR?
+U 1 1 61031F0A
+P 7350 3900
+F 0 "#PWR?" H 7350 3650 50  0001 C CNN
+F 1 "GND1" H 7355 3727 50  0000 C CNN
+F 2 "" H 7350 3900 50  0001 C CNN
+F 3 "" H 7350 3900 50  0001 C CNN
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3850 7350 3850
+Wire Wire Line
+	7350 3850 7350 3900
+Wire Wire Line
+	7450 3650 7350 3650
+Wire Wire Line
+	7350 3650 7350 3850
+Connection ~ 7350 3850
+Text Notes 6750 4300 0    50   ~ 0
+Check U.FL in Lora and gps modules
+Wire Notes Line style solid
+	2700 1000 8600 1000
+Wire Notes Line style solid
+	8600 1000 8600 4450
+Wire Notes Line style solid
+	8600 4450 2700 4450
+Wire Notes Line style solid
+	2700 4450 2700 1000
+Text Label 3100 1250 0    100  ~ 0
+ANTENOVA_M20050-1
+$EndSCHEMATC

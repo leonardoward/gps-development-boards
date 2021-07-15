@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# U.FL-R-SMT-1_10_
+#
+DEF U.FL-R-SMT-1_10_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "U.FL-R-SMT-1_10_" 650 200 50 H V L CNN
+F2 "U.FL-R-SMT-1(10)" 650 100 50 H I L CNN
+F3 "https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684" 650 0 50 H I L CNN
+F4 "UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial" 650 -100 50 H I L CNN "Description"
+F5 "Hirose" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "U.FL-R-SMT-1(10)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "798-U.FL-R-SMT-110" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "U.FL-R-SMT-1(10)" 650 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/u.fl-r-smt-1-10/hirose-electric" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+C 500 -100 50 0 1 0 N
+C 500 -100 100 0 1 0 N
+P 2 0 1 0 300 -200 500 -200 N
+P 2 0 1 0 300 0 500 0 N
+P 3 0 1 0 300 -100 400 -100 350 -100 N
+P 5 0 1 6 200 100 650 100 650 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

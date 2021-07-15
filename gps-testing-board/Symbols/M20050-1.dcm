@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M20050-1
+D Antennas GPS/GNSS RADIONOVA RF Module MTK chipset
+K GPS GNSS
+F https://www.mouser.com/datasheet/2/23/antenova_M20050-1-1279284.pdf
+$ENDCMP
+#
+#End Doc Library
