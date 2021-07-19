@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1.8nH
+D 600 mA 100mOhm Max 0805 (2012 Metric) Unshielded Multilayer Inductor 
+F https://abracon.com/Magnetics/new/AIMC-0805.pdf
+$ENDCMP
+#
+#End Doc Library

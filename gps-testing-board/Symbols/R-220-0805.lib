@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 220
+#
+DEF 220 R 0 40 Y Y 1 F N
+F0 "R" 100 150 50 H V C CNN
+F1 "220" 150 50 50 H V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 950 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Digi-Key" 500 200 50 H I C CNN "Supplier 1"
+F5 "311-220ARCT-ND" 700 100 50 H I C CNN "Supplier Part Number 1"
+F6 "Yageo" 450 -50 50 H I C CNN "Manufacturer"
+F7 "RC0805JR-07220RL" 700 -150 50 H I C CNN "Manufacturer Part Number"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

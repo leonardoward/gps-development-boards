@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10uF
+D ±10% 6.3V 0805 (2012 métrico) Capacitores cerámicos X5R
+$ENDCMP
+#
+$CMP C-10uF-0805
+D ±10% 6.3V 0805 (2012 métrico) Capacitores cerámicos X5R
+$ENDCMP
+#
+#End Doc Library

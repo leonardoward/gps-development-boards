@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name M20050-1)(type KiCad)(uri ${KIPRJMOD}/Footprints/M20050-1.pretty)(options "")(descr ""))
+  (lib (name "U.FL-R-SMT-1(10)")(type KiCad)(uri "${KIPRJMOD}/Footprints/U.FL-R-SMT-1(10).pretty")(options "")(descr ""))
+  (lib (name ATGM332D-5N31)(type KiCad)(uri ${KIPRJMOD}/Footprints/ATGM332D-5N31.pretty)(options "")(descr ""))
+  (lib (name BAT-HLD-001-THM)(type KiCad)(uri ${KIPRJMOD}/Footprints/BAT-HLD-001-THM.pretty)(options "")(descr ""))
+  (lib (name BAT-1066)(type KiCad)(uri ${KIPRJMOD}/Footprints/BAT-1066.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 220
+D ±5% 0.125W 0805 (2012 Metric) Chip Resistor Moisture Resistant Thick Film
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP RED-CLEAR
+D Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)
+F https://www.we-online.de/katalog/datasheet/150080SS75000.pdf
+$ENDCMP
+#
+#End Doc Library

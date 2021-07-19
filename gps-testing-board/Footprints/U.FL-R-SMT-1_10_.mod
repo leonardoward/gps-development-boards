@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  2021-07-15 21:46:57
+PCBNEW-LibModule-V1  2021-07-10 22:13:57
 # encoding utf-8
 Units mm
 $INDEX
 U.FL-R-SMT-1(10)
 $EndINDEX
 $MODULE U.FL-R-SMT-1(10)
-Po 0 0 0 15 60f09ec1 00000000 ~~
+Po 0 0 0 15 60ea0d95 00000000 ~~
 Li U.FL-R-SMT-1(10)
 Cd U.FL-R-SMT-1(10)
 Kw Connector

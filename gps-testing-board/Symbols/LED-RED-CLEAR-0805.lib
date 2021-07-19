@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RED-CLEAR
+#
+DEF RED-CLEAR D 0 40 Y N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "RED-CLEAR" 0 -150 50 H V C CNN
+F2 "LED_SMD:LED_0805_2012Metric" 50 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Digi-Key" -150 -400 50 H I C CNN "Supplier 1"
+F5 "732-4985-1-ND" 400 -400 50 H I C CNN "Supplier Part Number 1"
+F6 "Würth Elektronik" -250 -300 50 H I C CNN "Manufacturer"
+F7 "150080SS75000" 400 -300 50 H I C CNN "Manufacturer Part Number"
+DRAW
+P 2 1 1 10 -50 -50 -50 50 N
+P 2 1 1 0 -50 0 50 0 N
+P 4 1 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 1 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 1 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

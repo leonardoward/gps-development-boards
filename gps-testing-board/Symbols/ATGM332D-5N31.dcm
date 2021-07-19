@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATGM332D-5N31
+D Communication Modules/GNSS Modules 12.2x16x2.4mm
+K GNSS
+F https://datasheet.lcsc.com/szlcsc/ZHONGKEWEI-ATGM332D-5N31_C128659.pdf
+$ENDCMP
+#
+#End Doc Library

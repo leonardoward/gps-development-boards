@@ -1347,7 +1347,7 @@
     (descr BAT-HLD-001-THM-1)
     (tags "Undefined or Miscellaneous")
     (path /610D4963)
-    (fp_text reference J16 (at -13.843 6.0706) (layer F.SilkS)
+    (fp_text reference J16 (at -14.2494 -8.4836) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_text value BAT-HLD-001-THM (at 0 0) (layer F.SilkS) hide
@@ -1452,7 +1452,7 @@
   (gr_text BAT (at 165.3794 125.3236) (layer F.SilkS) (tstamp 60F5AA4A)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Hackaday Dream Team Challenge 2021" (at 173.5328 119.126) (layer F.SilkS) (tstamp 60F58E58)
+  (gr_text "Hackaday Dream Team Challenge 2021" (at 175.5902 119.0752) (layer F.SilkS) (tstamp 60F58E58)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 19-07-2021 (at 171.2722 116.459) (layer F.SilkS) (tstamp 60F58E4D)

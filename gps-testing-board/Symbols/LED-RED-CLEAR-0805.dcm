@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RED-CLEAR
+D Red 630nm LED Indication - Discrete 1.9V 0805 (2012 Metric)
+F https://www.we-online.de/katalog/datasheet/150080SS75000.pdf
+$ENDCMP
+#
+#End Doc Library
