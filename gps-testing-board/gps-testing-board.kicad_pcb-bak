@@ -838,8 +838,8 @@
       (net 3 GND2))
     (pad 1 smd rect (at -1.475 0 90) (size 1.05 2.2) (layers F.Cu F.Paste F.Mask)
       (net 3 GND2))
-    (model U.FL-R-SMT-1_10_.stp
-      (offset (xyz 0 0.04999999999413419 0))
+    (model ${KIPRJMOD}/3D/U.FL-R-SMT-1_10_.stp
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
