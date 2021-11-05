@@ -1,5 +1,9 @@
 # GPS Development Board - ANTENOVA M20050-1 and ATGM332D-5N31 #
 
+<p align="center">
+  <img src="./Images/gps-pcb.jpg">
+</p>
+
 This repository contains the design of a development board for the [ANTENOVA M20050-1](https://www.digikey.com/en/products/detail/antenova/M20050-1/7931495) and the [ATGM332D-5N31](https://lcsc.com/product-detail/Satellite-Positioning-Modules_ZHONGKEWEI-ATGM332D-5N31_C128659.html). The PCB was designed using KiCad.
 
 ## Schematic for the ANTENOVA M20050-1 ##
@@ -37,7 +41,7 @@ This repository contains the design of a development board for the [ANTENOVA M20
 | [Antenova M20050-1 series RF Receiver GPS 1.575GHz -165dBm - On-Board, Trace Module](https://www.digikey.com/en/products/detail/antenova/M20050-1/7931495) | 1 |
 | [Conn Header 40POS 2.54](https://www.digikey.com/en/products/detail/3m/2340-6111TG/1237275) | 1 |
 
-## PCB ##
+## 3D Model ##
 
 <p align="center">
   <img src="./Images/gps-testing-board01.jpg">
